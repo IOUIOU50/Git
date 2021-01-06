@@ -74,6 +74,8 @@ add - commit - push를 수행하고 나면,  master branch에는 어떠한 변�
 (현재, head가 develop을 가리키고 있는 상태)
 </pre>
 
+<img src='https://user-images.githubusercontent.com/57579709/103754400-a5d88100-504f-11eb-9296-dfd27eea5b55.png'>
+
 이 분리된 별도의 Topic branch들을 합치기 위해서는 `merge`를 수행해주면 된다.
 
 먼저, 위의 예시에서 develop으로 옮겨두었던 `head`를 다시 `master`로 옮겨주자.
@@ -82,4 +84,10 @@ add - commit - push를 수행하고 나면,  master branch에는 어떠한 변�
 > git checkout master
 </pre>
 
-그리고, 
+지금 head가 master에 위치한 이 시점에서, `git merge 브랜치이름` 명령어를 이용하여  
+해당 브랜치의 수정/추가사항을 master branch에 합병, 즉 **merge** 시키도록 한다.
+
+<pre>
+> git merge develop
+</pre>
+
