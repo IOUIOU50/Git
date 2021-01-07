@@ -91,3 +91,21 @@ add - commit - push를 수행하고 나면,  master branch에는 어떠한 변�
 > git merge develop
 </pre>
 
+이렇게 하면 현재 commit이 완료된 상태는 `master`와 `develop`이 서로 같다.
+
+마지막으로, remote repository인 github와 동기화하기 위해  
+`git push`명령어를 수행하면, 원격지의 github에도 변경 내용이 잘 적용된다.
+
+<pre>
+> git push
+</pre>
+
+## branch 제거하기
+
+프로젝트의 일부 기능을 구현하는데 역할을 다한 branch 관리를 위해 branch 삭제 방법은  
+`git branch -d 브랜치이름`을 입력하면 된다.
+
+<pre>
+> git branch -d develop
+</pre>
+    
