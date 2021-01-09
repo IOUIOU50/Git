@@ -88,6 +88,24 @@ markdown에서 줄바꿈은
 
 </code>
 </pre>
+
+소스코드를 작성할 때 더 좋은 방법으로는, ` ``` `을 사용하는 방법이 있습니다.
+문법이 존재하는 소스코드를 작성할 때에는 뒤에 언어이름을 적어주시면 되겠습니다.
+
+### 입력예시
+
+<pre>
+```java
+System.out.println("hello java");
+```
+</pre>
+
+### 결과
+
+```java
+System.out.println("hello java");
+```
+
 <br/>
 
 
